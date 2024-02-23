@@ -1,0 +1,44 @@
+.counter-container {
+    text-align: center;
+    padding: 20px;
+    /* border-radius: 10px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+height: 100vh;
+}
+  
+  .counter-container:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Light background on hover */
+  }
+  
+  .count {
+    font-size: 24px;
+    color: #333;
+    text-shadow: 0 0 10px white; /* Adding glow effect */
+    transition: text-shadow 0.5s ease-in-out;
+  }
+  
+  .count:hover {
+    text-shadow: 0 0 20px dark grey; /* Increasing glow on hover */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .button:active {
+    transform: scale(0.95); /* Button scaling effect on click */
+  }
+  
